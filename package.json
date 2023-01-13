@@ -1,4 +1,19 @@
 {
+
+    "name": "asincronismo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "callback": "node Asincronismo/src/callback/challenge.js"
+    },
+    "keywords": [
+      "javascript"
+    ],
+    "author": "oscar barajas <oscar@platzi.com>",
+    "license": "MIT",
+  
+  
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
   }
