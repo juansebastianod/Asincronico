@@ -1,6 +1,6 @@
-const vacas = 5;
+const vacas = 12;
 
-countCows = new Promise((resolve, reject) => {
+const countCows = new Promise((resolve, reject) => {
   if (vacas > 10) {
     resolve(`we have ${vacas} cows on the farm `);
   } else {
@@ -10,11 +10,11 @@ countCows = new Promise((resolve, reject) => {
 
 countCows
   .then((result) => {
-    console.log(result);
+  console.log(result)
+  }).then(()=>{
+    console.log("hola")
   })
-  .catch((err) => {
-    console.error(err);
-  });
+  
 
 
 //   return new Promise((resolve, reject) =>{
@@ -23,3 +23,4 @@ countCows
 //     }, time);
     
 //  });
+
